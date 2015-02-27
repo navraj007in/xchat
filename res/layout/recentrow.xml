@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:orientation="horizontal" 
+    android:id="@+id/layoutRecent"
+    android:paddingTop="3dp">
+    <ImageView
+        android:id="@+id/imgUser"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/image40" />
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="2dp"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:id="@+id/lblName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="Name"
+/>
+    <TextView 
+        android:id="@+id/lblCountry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="Country"
+/>
+    
+    <TextView 
+        android:id="@+id/lblJoinDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="Join Date"
+/>
+    
+</LinearLayout>
+</LinearLayout>

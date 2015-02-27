@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:paddingLeft="4dp"
+    android:paddingRight="4dp">
+<RelativeLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/layoutMessage"
+	android:background="@drawable/speech_bubble_green"
+	android:layout_gravity="right"
+	android:layout_marginLeft="4dp"
+	android:layout_marginRight="4dp"
+	android:paddingLeft="4dp"
+    android:paddingRight="4dp"
+    >
+    <TextView
+        android:id="@+id/message_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5sp"
+        android:shadowColor="@color/textShadow"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:text="Medium Text"
+        android:textColor="#ffffff"
+		android:layout_marginLeft="4dp"
+		android:layout_marginRight="4dp"
+		android:paddingRight="4dp"
+        android:textSize="24sp"
+        android:layout_marginTop="4dp"
+        android:paddingTop="4dp" />
+<TextView 
+    android:id="@+id/lblTimeStamp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="05:15"
+    android:layout_below="@+id/message_text"
+    android:layout_alignParentLeft="true"
+    android:textColor="#000000"
+    android:textSize="16sp"
+	android:layout_marginLeft="4dp"
+
+    ></TextView>
+   <ImageView
+       android:id="@+id/imgSent"
+       android:layout_width="16dp"
+		android:layout_height="16dp"
+		android:layout_toRightOf="@+id/lblTimeStamp"
+		android:layout_below="@+id/message_text"
+		android:src="@drawable/accept"
+		android:visibility="gone"
+       />
+
+</RelativeLayout>
+    <LinearLayout
+        android:id="@+id/layout_timestamp"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:background="#ffffff"
+        android:layout_height="4dp"
+        >
+       
+        </LinearLayout>
+
+</LinearLayout>

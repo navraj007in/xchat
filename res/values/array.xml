@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string-array name="listOptions">
+     <item>Option 1</item>
+     <item>Option 2</item>
+     <item>Option 3</item>
+     </string-array>
+ 
+   <string-array name="listValues">
+     <item>Looking for new friends</item>
+     <item>Chat with friends only</item>
+     <item>Leave me alone for now</item>
+   </string-array>
+   <string-array name="listTOS">
+     <item>1. Child Pornography is strictly prohibited. Have a Soul!!</item>
+     <item>2. We don\'t sell your personal Data in exchange for money.We are ambitious, not greedy.</item>
+     <item>3. Reveal your personal information to any one at your own risk.</item>
+     <item>4. We dont save your messages on our servers.We dont have that kind of cash buddy.Even if we had, we wouldn\'t.</item>
+     <item>5. Beware of those business proposals offering millions of cash in diplomatic Suitcases. They are all Frauds. Use some brains my friend!!</item>
+     <item>6. This is a tool to communicate, socialise and make friends. Dont use it to conspire, bully or harass.Any misuse will result in account suspension.</item>
+     <item>Thats it. Lets get going!! Hurrah!!!!!</item>
+   </string-array>
+</resources>

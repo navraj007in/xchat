@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.kss.xchat.TopRoomsActivity" >
+    <item
+        android:id="@+id/action_full_list"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/viewchatroomslist"
+        android:title="@string/action_full_rooms_list"/>
+</menu>

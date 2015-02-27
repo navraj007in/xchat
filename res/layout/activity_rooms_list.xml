@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RoomsListActivity"
+    tools:ignore="MergeRootFrame" 
+    android:orientation="vertical"
+     android:background="@drawable/pm">
+ <ListView
+        android:id="@+id/lstCountries"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.0"
+        android:background="#FFFFFF"
+        android:layout_marginTop="10dp"
+ />
+ <LinearLayout 
+    android:id="@+id/adLayout"
+    android:layout_height="wrap_content"
+	android:layout_width="wrap_content"
+	android:layout_gravity="bottom"
+    ></LinearLayout>
+</LinearLayout>

@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:orientation="vertical"
+    tools:context=".RoomUsersActivity" 
+    
+    >
+<!-- <LinearLayout 
+    android:id="@+id/loadingLayout"
+    android:layout_height="match_parent"
+	android:layout_width="match_parent"
+    
+    >
+
+    <TextView
+        android:id="@+id/txtLoading"
+        android:layout_weight="1.0"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="Loading Recently Joined" />
+    <ImageView 
+        android:gravity="right"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/loading"
+        android:layout_marginRight="3dp"
+        android:layout_marginLeft="3dp"
+        
+        />
+</LinearLayout>
+ --><com.costum.android.widget.LoadMoreListView
+        android:id="@+id/lstUsers"
+        android:layout_width="fill_parent"
+        android:layout_weight="1.0"
+		android:divider="#30B0E0"
+        android:layout_height="fill_parent">
+    </com.costum.android.widget.LoadMoreListView>
+<LinearLayout 
+    android:id="@+id/adLayout"
+    android:layout_height="wrap_content"
+	android:layout_width="wrap_content"
+	android:layout_gravity="bottom"
+    ></LinearLayout>
+</LinearLayout>

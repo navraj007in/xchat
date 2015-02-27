@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="dark_slate_gray">#2F4F4F</color>
+	<color name="gray_2">#AFAFAF</color>
+	<color name="gray_1">#C0C0C0</color>
+	<color name="gray_3">#E0E0E0</color>
+	<color name="black">#000000</color>
+	<color name="white">#FFFFFF</color>
+	<color name="dismiss_default">#1589FF</color>
+	<color name="after_press_dismiss_default">#0000FF</color>
+	<color name="blue_offender_detail">#0000FF</color>
+	<color name="swipe_delete_bg_color">#a8a8a8</color>
+	
+	<color name="Black_transparent_black_percent_10">#1A000000</color>
+	<color name="Black_transparent_black_percent_15">#26000000</color>
+	<color name="Black_transparent_black_percent_20">#33000000</color>
+	<color name="Black_transparent_black_percent_25">#40000000</color>
+	<color name="Black_transparent_black_percent_30">#4D000000</color>
+	<color name="Black_transparent_black_percent_35">#59000000</color>
+	<color name="Black_transparent_black_percent_40">#66000000</color>
+
+</resources>

@@ -1,0 +1,58 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+     <item
+        android:id="@+id/action_meet_new_people"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_meet_new_people"
+        android:icon="@drawable/compose"/>
+    <item
+        android:id="@+id/action_start_conversation"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_start_conversation"
+        android:icon="@drawable/compose"/>
+        <item
+        android:id="@+id/action_join_room"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/action_settings"
+        android:icon="@drawable/viewchatroomslist"/>
+     <item
+        android:id="@+id/action_add_contact"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:icon="@drawable/addfriend"
+        android:title="@string/action_add_new_contact"/>
+    <item
+        android:id="@+id/action_view_roster"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/action_view_roster"
+        android:icon="@drawable/viewfriendslist1"/>
+        <item
+        android:id="@+id/action_exit"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="Exit"
+        android:icon="@drawable/logout"/>
+   <item
+        android:id="@+id/action_favorites"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_favorites"
+        android:icon="@drawable/ic_action_settings"/> 
+<item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"
+        android:icon="@drawable/ic_action_settings"/> 
+  
+   <item
+            android:id="@+id/menu_item_share"
+            android:showAsAction="never"
+            android:title="Share"
+            android:actionProviderClass=
+                "android.widget.ShareActionProvider" />    
+
+</menu>

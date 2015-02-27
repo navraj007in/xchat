@@ -1,0 +1,76 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+<item
+        android:id="@+id/action_send_image"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_action_picture"
+        android:title="@string/action_send_image"/>
+    <item
+        android:id="@+id/action_add_contact"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/addfriend"
+        android:title="@string/action_add_contact"/>
+    <item
+        android:id="@+id/action_buzz"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/vibratephone"
+        android:title="@string/action_buzz"/>
+<item
+        android:id="@+id/action_block"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/blockuser"
+        android:title="@string/action_block"/>
+    <item
+        android:id="@+id/action_view_profile"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_view_profile"/>
+<item
+        android:id="@+id/action_secure"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_enable_secure"/>
+<item
+        android:id="@+id/action_add_as_favorite"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_add_as_favorite"/>    
+<item
+        android:id="@+id/action_hotlist"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_hotlist"/>
+
+<item
+        android:id="@+id/action_flash"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_flash"/>
+
+<item
+        android:id="@+id/action_mute"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_mute"/>
+<item
+        android:id="@+id/action_clear_chat"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_clear_chat"/>
+<item
+        android:id="@+id/action_recall_chat"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_recall_chat"/>
+
+<item
+        android:id="@+id/action_email_conversation"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_email_conversation"/>
+
+
+</menu>

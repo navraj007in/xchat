@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+ <PreferenceCategory
+   android:summary="Profile Settings"
+   android:title="Your Profile Settings" >
+  <Preference
+     android:key="keyStatus"
+     android:summary="Enter Your Status Here"
+     android:title="Status Message" />
+  <Preference
+     android:key="keyProfile"
+     android:summary="Change Profile"
+     android:title="Profile" />
+   <Preference
+     android:key="keySecureMode"
+     android:title="Secure Mode Password" />
+   <Preference
+     android:key="keyBlockList"
+     android:title="Block List" />
+   <Preference
+     android:key="keyTOS"
+     
+     android:title="Terms of Use" />
+   </PreferenceCategory>
+ 
+ <PreferenceCategory
+   android:summary="Username and password information"
+   android:title="Settings" >
+ 
+ <SwitchPreference
+          android:key="keyDND"
+     android:summary="You will not be notified of incoming messsages"
+     android:title="Do not Disturb Mode"
+     ></SwitchPreference>
+ <SwitchPreference
+          android:key="keyAutoReply"
+     android:summary="All Messages will be replied in same manner"
+     android:title="Auto Reply"
+     ></SwitchPreference>
+ <EditTextPreference
+     android:key="keyAutoReplyText"
+     android:summary="Enter Auto Reply Text"
+     android:title="Auto Reply Message" />
+  <ListPreference
+     android:entries="@array/listValues"
+     android:entryValues="@array/listValues"
+     android:key="listpref"
+     android:summary="Set your current chat mood"
+     android:title="Current Mood" />
+ </PreferenceCategory>
+</PreferenceScreen>
